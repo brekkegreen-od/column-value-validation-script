@@ -2,7 +2,7 @@
 Script to find any data values not matching previous configuration that we need to clarify with the customer 
 
 #### Run command on command line to start Jupyter Notebook
-`~ docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/scipy-notebook`
+`~ docker run --rm -p 8888:8888 -p 4040:4040 -e JUPYTER_ENABLE_LAB=yes -v $(pwd):/home/jovyan/work jupyter/datascience-notebook`
 
 Follow instructions for accessing the notebook - Copy and paste url with token into the browser
 
