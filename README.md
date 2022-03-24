@@ -8,7 +8,7 @@ Follow instructions for accessing the notebook - Copy and paste url with token i
 
 Create "data" directory and place all data files inside this directory
 
-Navigate to work/notebooks/validate_initial_files.ipynb
+Navigate to work/notebooks/mcleod_validate_initial_files.ipynb or work/notebooks/custom_validate_initial_files.ipynb
 
 Edit the path according to the naming convention you've used for your folder structure.
 
