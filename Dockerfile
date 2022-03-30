@@ -1,7 +1,7 @@
 FROM jupyter/minimal-notebook
 LABEL author="Brekke Green"
 
-WORKDIR '/work'
+WORKDIR /work
 
 COPY requirements.txt ./
 
